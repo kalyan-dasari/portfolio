@@ -1,0 +1,155 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+/* header css*/
+
+.header{
+    width:100%;
+    height:70px;
+    background-color: rgb(32, 32, 31);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elements{
+    width: 10%;
+    padding:0px 5%; 
+}
+
+.text{
+    font-size: 40px;
+    font-weight:bold;
+    color: rgb(85, 18, 147);
+}
+
+
+.header-elements{
+    width: 50%;
+    padding:0px 5%;
+    
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+
+.list-elements:hover{
+    color: rgb(88, 239, 50);
+    cursor: pointer;
+}
+
+/*container css */
+section{
+    display: flex;
+    background-color: rgb(125, 125, 125);
+}
+
+.main-section{
+    padding:50px 5%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    margin-top: 20px;
+    padding:0px 5%;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    color: rgb(30, 30, 155);
+}   
+
+.content{
+    margin-top: 50px;
+    column-gap: 20px;
+    padding:0px 5%;
+    font-family: "Sofadi One", system-ui;
+}
+/* certificates css */
+h3{
+    padding:0px 5%;
+    background-color:rgb(97, 97, 98);
+    text-align: center;
+    padding-top:50px ;
+    font-size:40px;
+
+
+}
+.main-container{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    background-color: rgb(97, 97, 98);
+    flex-wrap:wrap;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.container{
+    width: 25%;
+    height: 220px;
+    background-color: aqua;
+    border: 2px solid grey;
+
+}
+
+.cert{
+    width:100%;
+    height: 216.5px;
+    transition: transform .5s;
+}
+.cert:hover{
+    transform:scale(1.5);
+    box-shadow: 0 0 30px 10px #7867f5;
+}
+/*  footer  */
+.soc-media{
+    background-color:rgb(197, 197, 185);
+}
+
+.footer{
+    width: 100%;
+    height:200px;
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(197, 197, 185);
+}
+.social{
+    border: 2px solid black;
+    border-radius: 10px;
+    width:20%;
+    height:40px;
+    padding: 10px;
+    background-color: rgb(111, 198, 136);
+}
+.soc-element{
+    padding: 0px 10px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(8, 8, 8);
+}
+/*acheivements*/
+.acheivement{
+    background-color: rgb(35, 34, 34);
+    color: rgb(84, 84, 169);
+}
+.acheive{
+    height:400px;
+    background-color: rgb(35, 34, 34);
+}
+
+.ach{
+    width:60%;
+    padding:100px;
+    margin:auto;
+    background-color: rgb(135, 135, 240);
+}
